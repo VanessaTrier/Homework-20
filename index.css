@@ -1,0 +1,84 @@
+.customNav {
+  background-color: #cb6749;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.customNav a {
+  color: white !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.heroBackground {
+  background-image: url(/Images/White\ Google\ Pixel\ 2.png);
+  background-color: #f9e8d9;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 600px;
+}
+.heroContent {
+  color: #1c102d;
+  padding-top: 100px;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+.sectionHeading {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: #1c102d;
+  font-weight: bold;
+}
+.subHeading {
+  margin-top: 50px;
+  font-size: 24px;
+}
+.analysisContainer {
+  display: grid;
+  grid-template-areas:
+    "affinity affinity"
+    "chart donut";
+}
+.affinity {
+  grid-area: affinity;
+}
+.chart {
+  grid-area: chart;
+}
+.donut {
+  grid-area: donut;
+}
+.analysisContainer img {
+  width: 100%;
+}
+.body {
+  color: #1c102d;
+}
+.contentSection {
+  padding-top: 100px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+.display-4 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 36px;
+}
+.affinityDiagram {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
